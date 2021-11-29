@@ -1,5 +1,9 @@
 | Supported Targets | ESP32 |
 | ----------------- | ----- |
+/*
+    *用的是esp-idf的blufi例程改的，实现了蓝牙配网连接TCP，实现云端自动控制。
+
+*/
 
 ESP-IDF Blufi demo
 =======================
