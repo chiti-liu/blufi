@@ -1,25 +1,13 @@
-| Supported Targets | ESP32 |
-| ----------------- | ----- |
-/*
-    *用的是esp-idf的blufi例程改的，实现了蓝牙配网连接TCP，实现云端自动控制。
+用的是esp-idf的blufi例程改的，实现了蓝牙配网连接TCP，实现云端自动控制 
 
-*/
+技术： 
 
-ESP-IDF Blufi demo
-=======================
+1.蓝牙配网 
 
-This is the demo for bluetooth config wifi connection to ap.
+2.上位机调试
 
-To test this demo, you need to prepare a mobile phone with blufi application installed. You can download the blufi application from [Android version](https://github.com/EspressifApp/EspBlufi) and [iOS version](https://itunes.apple.com/cn/app/espblufi/id1450614082?mt=8).
+ 3.nvs掉电存储 
 
-Blufi is completely open source, here is the download link:
+4.tcp连接与数据处理 
 
-* [blufi source code](https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/bluedroid/ble/blufi)
-
-* [BluFi protocol](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/blufi.html?highlight=blufi#the-frame-formats-defined-in-blufi)
-
-* [iOS source code](https://github.com/EspressifApp/EspBlufiForiOS)
-
-* [Android source code](https://github.com/EspressifApp/EspBlufi)
-
-* [Bluetooth Network User Guide CN](https://www.espressif.com/sites/default/files/documentation/esp32_bluetooth_networking_user_guide_cn.pdf)
+5.freertos系统
